@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #808080;
+    max-width: 850px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-inline: auto;
+}
+
+main{
+    width: 100%;
+    height: 1200px;
+    border: 3px solid black;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+
+}
+
+.div-left{
+    background-color: black;
+    grid-column: span 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+
+.div-right{
+    background-color: rgb(33, 33, 209);
+    width: 100%;
+    height: 100%;
+    grid-column: span 3;
+}
+
+.profile-img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    object-fit: cover; /* Disable object-fit */
+    object-position: 10% 20%;
+    margin: none;
+}
