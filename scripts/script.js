@@ -5,8 +5,8 @@ if (downloadBtn) {
     try {
       const link = document.createElement("a");
       link.href =
-        "./Resources/PDF/CV-Luis-Angel-Marin-Rodriguez-2025_compressed.pdf";
-      link.download = "CV-Luis-Angel-Marin-Rodriguez-2025_compressed.pdf";
+        "./Resources/PDF/CV-Luis-Angel-Marin-Rodriguez_compressed.pdf";
+      link.download = "CV-Luis-Angel-Marin-Rodriguez_compressed.pdf";
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);
