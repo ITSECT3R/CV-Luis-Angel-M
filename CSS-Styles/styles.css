@@ -95,14 +95,11 @@ a{
     font-weight: 600;
 }
 
-.contact-divs{
-    margin-bottom: 15px;
-}
-
 
 .contacts svg{
     margin-right: 7px;
-    margin-bottom: -5px;
+    position: relative;
+    top: 5px;;
     width: 25px;
     height: 25px;
 }
@@ -118,6 +115,8 @@ a{
 
 .contact-divs{
     transition: .5s;
+    margin-bottom: 15px;
+    
 }
 
 .contact-divs:hover{
@@ -126,6 +125,10 @@ a{
 
 .contact-divs a{
     text-decoration: none;
+}
+
+.download-cv{
+    margin-top: 2rem;
 }
 
 #download-btn{
@@ -307,8 +310,8 @@ a{
 .Certifications h4{
     display: inline;
     font-size: 1.6rem;
-    color: #00ff33;
-    text-shadow: 0 0 3px #000000, 0 0 15px rgb(255, 13, 0);
+    color: #ffe600;
+    text-shadow: 0 0 3px #000;
 }
 
 
@@ -334,4 +337,11 @@ a{
 .ul-skills1 a:hover{
     color: #ffbf00;
     margin-left: 10px;
+}
+
+.link-all-certifications{
+    font-size: 1rem;
+    display: block;
+    text-align: center;
+    margin-bottom: 2rem;
 }
